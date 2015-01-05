@@ -15,6 +15,10 @@ module SpreeSecondUnits
       end
     end
 
+    initializer 'spree.register.calculators.second_units', after: 'spree.register.calculators' do |app|
+      app.config.spree.calculators.promotion_actions_create_item_adjustments << Spree::Calculator::SecondUnits
+    end
+
     config.to_prepare &method(:activate).to_proc
   end
 end
