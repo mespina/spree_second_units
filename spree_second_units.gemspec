@@ -3,8 +3,8 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_second_units'
   s.version     = '2.3.1'
-  s.summary     = 'Spree extension that supports discounts that apply to the second unit of the same product.'
-  s.description = 'Spree extension that supports discounts that apply to the second unit of the same product.'
+  s.summary     = 'Spree extension that supports discounts that apply to units of the same product.'
+  s.description = 'Spree extension that supports discounts that apply to units of the same product.'
   s.required_ruby_version = '>= 1.9.3'
 
   s.author    = 'Marcelo Espina'
